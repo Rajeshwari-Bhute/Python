@@ -1,30 +1,57 @@
-name: Generate Snake
+# 🐍 Python Repository
 
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+Welcome to my Python practice repository! 🚀  
+This repo contains Python programs, coding exercises, and small projects. 💻
 
-permissions:
-  contents: write
+![Coding GIF](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+## ✨ About
 
-      - uses: Platane/snk@v3
-        id: snake-gif
-        with:
-          github_user_name: Rajeshwari-Bhute
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+I use this repository to:
+- 🐍 Practice Python programming
+- 🧠 Improve problem-solving skills
+- 📚 Store coding exercises and examples
+- 🔧 Work on small Python projects
 
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+## 🌟 Features
+
+- ✅ Beginner-friendly Python programs
+- ✅ Practice problems and solutions
+- ✅ Simple and clean code
+- ✅ Learning-focused repository
+
+## 🛠️ Technologies Used
+
+- Python
+- GitHub
+- Markdown
+
+## ▶️ How to Use
+
+1. Clone this repository:
+```bash
+git clone https://github.com/Rajeshwari-Bhute/Python.git
+```
+
+2. Open the folder:
+```bash
+cd Python
+```
+
+3. Run any Python file:
+```bash
+python filename.py
+```
+
+## 📌 Repository Goal
+
+To learn, practice, and grow in Python programming every day. 🌱
+
+## 🙋‍♀️ Author
+
+**Rajeshwari Bhute**  
+GitHub: [Rajeshwari-Bhute](https://github.com/Rajeshwari-Bhute)
+
+## ⭐ Support
+
+If you like this repository, give it a star! 🌟
